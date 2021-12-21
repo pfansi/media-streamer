@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(240, 238, 238);
+}
+
+nav > a > .back-btn {
+    background-color: tomato;
+    color: white;
+    border-radius: 10%;
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+nav > a > .back-btn:hover {
+    background-color: white;
+    color: tomato;
+}
+
+nav > .main-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: tomato;
+    margin-bottom: 2%;
+}
+
+.btn {
+    background-color: white;
+    color: tomato;
+}
+
+.btn > a{
+    color: tomato;
+}
+
+.btn:hover {
+    background-color: rgb(32, 32, 32);
+    color: tomato;
+}
+
+.btn:focus {
+    background-color: rgb(32, 32, 32);
+    color: tomato;
+}
+
+.results-title {
+    color: tomato;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+.card {
+    margin: 0.5em;
+    /* border: rgb(44, 42, 42) solid 2px; */
+    color: rgb(44, 42, 42);
+    box-shadow: 5px 8px 8px #888888;
+}
+
+.card > img {
+    margin-top: 6%;
+}
+
+.card-body > h2 {
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.rating {
+    display: inline-block;
+    margin-top: 10%;
+}
+
+.desc {
+    margin-top: 10%;
+}
+
+.streaming {
+    margin-top: 10%;
+}
+
+.stream-link {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.stream-link > a {
+    color: tomato;
+}
+
+.stream-link:hover {
+    color: black;
+}
+
+.results-title {
+    text-align: center;
+    font-size: 3em;
+}
+
+.good-rating {
+    display: inline;
+    background-color: rgb(77, 151, 58);
+    color: white;
+    padding: 2%;
+    border-radius: 0.5em;
+}
+
+.ok-rating {
+    display: inline;
+    background-color: rgb(212, 160, 62);
+    color: white;
+    padding: 2%;
+    border-radius: 0.5em;
+}
+
+.bad-rating {
+    display: inline;
+    background-color: rgb(190, 62, 62);
+    color: white;
+    padding: 2%;
+    border-radius: 0.5em;
+}
+
+.reduce-description {
+    max-height: 150px;
+    overflow-x: scroll;
+    text-overflow: ellipsis;
+    margin-top: 10%;
+}
+
+.scroll-text {
+    margin-top: 5%;
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+@media screen and (max-width: 610px) {
+    nav > a > .back-btn {
+        width: 96%;
+        margin: 0.5rem;
+        text-align: center;
+        border-radius: 4%;
+        font-size: 1.5rem;
+    }
+}
