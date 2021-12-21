@@ -1,7 +1,26 @@
 .indexMovie {
   background-color: rgb(240, 238, 238);
 }
-
 .indexBook {
   background-color: #1a535c;
+}
+
+.box-Btn1 {
+  border: 5px solid #1a535c;
+  cursor: pointer;
+}
+
+.box-Btn1:hover {
+  background-color: rgb(224, 224, 224);
+  box-shadow: 25px 20px #1a535c;
+}
+
+.box-Btn2 {
+  border: 5px solid rgb(240, 238, 238);
+  cursor: pointer;
+}
+
+.box-Btn2:hover {
+  background-color: #1e5e68;
+  box-shadow: 25px 20px rgb(240, 238, 238);
 }
